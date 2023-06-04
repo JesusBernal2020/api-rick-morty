@@ -5,7 +5,7 @@ import { paginationLogic } from '../utils/pagination';
 const FIRST_PAGE = 1;
 
 const ResidentList = ({ residents, locattion }) => {
-    const [currentPage, setCurrentPage] = useState(1)
+    const [currentPage, setCurrentPage] = useState(FIRST_PAGE)
 
     const { pages, residentsInPage } = paginationLogic(currentPage, residents)
 
