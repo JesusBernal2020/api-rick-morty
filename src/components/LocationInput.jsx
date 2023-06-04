@@ -1,7 +1,7 @@
 import axios from 'axios'
 import React, { useState } from 'react'
 
-const Locattion = ({ locattion, setLocattion }) => {
+const LocationInput = ({ locattion, setLocattion }) => {
   // Estado local para almacenar el valor de búsqueda y las sugerencias
   const [searchQuery, setSearchQuery] = useState('')
   const [suggestions, setSuggestions] = useState([])
@@ -98,4 +98,4 @@ const Locattion = ({ locattion, setLocattion }) => {
   )
 }
 
-export default Locattion
+export default LocationInput
