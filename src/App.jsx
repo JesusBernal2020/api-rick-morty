@@ -27,7 +27,7 @@ function App() {
           <LocationInput locattion={locattion} setLocattion ={setLocattion} />
         </section>
       </header>
-      <section className="bg-[url(/images/bgPage.png)] min-h-[500px] bg-cover bg-center">
+      <section className="bg-[url(/images/bgPage.png)] min-h-[700px] bg-cover bg-center">
         <ResidentList locattion={locattion} residents={locattion?.residents} />
       </section>
     </main>
