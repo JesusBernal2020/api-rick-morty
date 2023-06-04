@@ -25,7 +25,7 @@ const ResidentList = ({ residents, locattion }) => {
               key={page}
               onClick={() => setCurrentPage(page)}
               className={`bg-black hover:text-white font-semibold p-2 px-3 rounded-md ${
-                currentPage === page && "bg-[#8EFF8B] text-black hover:bg-[#8fff8b89] hover:text-white"
+                currentPage === page && "bg-[#90fb8c] text-black hover:bg-[#8fff8b89] hover:text-white"
               }`}
             >
               {page}
