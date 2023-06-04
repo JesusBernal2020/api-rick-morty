@@ -24,7 +24,7 @@ const LocationInput = ({ locattion, setLocattion }) => {
         >
           <input
             id="newLocation"
-            className=" bg-[#0000004c] text-white w-[100%] h-12 border-2 border-[#8EFF8B] pl-4  min-[700px]:text-center"
+            className=" outline-none bg-[#0000004c] text-white w-[100%] h-12 border-2 border-[#8EFF8B] pl-4  min-[700px]:text-center"
             placeholder="Type a location id..."
             type="text"
           />
